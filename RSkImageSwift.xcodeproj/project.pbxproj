@@ -1,0 +1,401 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		263F2319838B0F001F0E1B5D /* Pods_RSkImageSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 73A4FCE4343C4ADD5F736BCA /* Pods_RSkImageSwift.framework */; };
+		2B5B67BE1EDE8C0200F70766 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B67BD1EDE8C0200F70766 /* AppDelegate.swift */; };
+		2B5B67C01EDE8C0200F70766 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B5B67BF1EDE8C0200F70766 /* ViewController.swift */; };
+		2B5B67C31EDE8C0200F70766 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B67C11EDE8C0200F70766 /* Main.storyboard */; };
+		2B5B67C51EDE8C0200F70766 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B67C41EDE8C0200F70766 /* Assets.xcassets */; };
+		2B5B67C81EDE8C0200F70766 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B5B67C61EDE8C0200F70766 /* LaunchScreen.storyboard */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		2B5B67BA1EDE8C0200F70766 /* RSkImageSwift.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RSkImageSwift.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2B5B67BD1EDE8C0200F70766 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		2B5B67BF1EDE8C0200F70766 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		2B5B67C21EDE8C0200F70766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2B5B67C41EDE8C0200F70766 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2B5B67C71EDE8C0200F70766 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2B5B67C91EDE8C0200F70766 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2B5B67CF1EDE8CFC00F70766 /* RSkImageSwift-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RSkImageSwift-Bridging-Header.h"; sourceTree = "<group>"; };
+		4CA540E6072BFC679DED3517 /* Pods-RSkImageSwift.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSkImageSwift.debug.xcconfig"; path = "Pods/Target Support Files/Pods-RSkImageSwift/Pods-RSkImageSwift.debug.xcconfig"; sourceTree = "<group>"; };
+		73A4FCE4343C4ADD5F736BCA /* Pods_RSkImageSwift.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_RSkImageSwift.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D62EEE76868D3D53BDA68A17 /* Pods-RSkImageSwift.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-RSkImageSwift.release.xcconfig"; path = "Pods/Target Support Files/Pods-RSkImageSwift/Pods-RSkImageSwift.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2B5B67B71EDE8C0200F70766 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				263F2319838B0F001F0E1B5D /* Pods_RSkImageSwift.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2B5B67B11EDE8C0200F70766 = {
+			isa = PBXGroup;
+			children = (
+				2B5B67BC1EDE8C0200F70766 /* RSkImageSwift */,
+				2B5B67BB1EDE8C0200F70766 /* Products */,
+				A07F36C640D9122DDF34790E /* Pods */,
+				8C323176636F5D5C10889970 /* Frameworks */,
+				2B5B67CF1EDE8CFC00F70766 /* RSkImageSwift-Bridging-Header.h */,
+			);
+			sourceTree = "<group>";
+		};
+		2B5B67BB1EDE8C0200F70766 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B67BA1EDE8C0200F70766 /* RSkImageSwift.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2B5B67BC1EDE8C0200F70766 /* RSkImageSwift */ = {
+			isa = PBXGroup;
+			children = (
+				2B5B67BD1EDE8C0200F70766 /* AppDelegate.swift */,
+				2B5B67BF1EDE8C0200F70766 /* ViewController.swift */,
+				2B5B67C11EDE8C0200F70766 /* Main.storyboard */,
+				2B5B67C41EDE8C0200F70766 /* Assets.xcassets */,
+				2B5B67C61EDE8C0200F70766 /* LaunchScreen.storyboard */,
+				2B5B67C91EDE8C0200F70766 /* Info.plist */,
+			);
+			path = RSkImageSwift;
+			sourceTree = "<group>";
+		};
+		8C323176636F5D5C10889970 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				73A4FCE4343C4ADD5F736BCA /* Pods_RSkImageSwift.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A07F36C640D9122DDF34790E /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				4CA540E6072BFC679DED3517 /* Pods-RSkImageSwift.debug.xcconfig */,
+				D62EEE76868D3D53BDA68A17 /* Pods-RSkImageSwift.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2B5B67B91EDE8C0200F70766 /* RSkImageSwift */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2B5B67CC1EDE8C0200F70766 /* Build configuration list for PBXNativeTarget "RSkImageSwift" */;
+			buildPhases = (
+				FB15502DE5932BFC92DF54D7 /* [CP] Check Pods Manifest.lock */,
+				2B5B67B61EDE8C0200F70766 /* Sources */,
+				2B5B67B71EDE8C0200F70766 /* Frameworks */,
+				2B5B67B81EDE8C0200F70766 /* Resources */,
+				9E4CFB8C0F2806810E4F5E08 /* [CP] Embed Pods Frameworks */,
+				AC84F76A8E29B238BA49D067 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RSkImageSwift;
+			productName = RSkImageSwift;
+			productReference = 2B5B67BA1EDE8C0200F70766 /* RSkImageSwift.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2B5B67B21EDE8C0200F70766 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = builtbyblank;
+				TargetAttributes = {
+					2B5B67B91EDE8C0200F70766 = {
+						CreatedOnToolsVersion = 8.3.2;
+						DevelopmentTeam = GXTXWHR532;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Manual;
+					};
+				};
+			};
+			buildConfigurationList = 2B5B67B51EDE8C0200F70766 /* Build configuration list for PBXProject "RSkImageSwift" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2B5B67B11EDE8C0200F70766;
+			productRefGroup = 2B5B67BB1EDE8C0200F70766 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2B5B67B91EDE8C0200F70766 /* RSkImageSwift */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2B5B67B81EDE8C0200F70766 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B67C81EDE8C0200F70766 /* LaunchScreen.storyboard in Resources */,
+				2B5B67C51EDE8C0200F70766 /* Assets.xcassets in Resources */,
+				2B5B67C31EDE8C0200F70766 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9E4CFB8C0F2806810E4F5E08 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSkImageSwift/Pods-RSkImageSwift-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		AC84F76A8E29B238BA49D067 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-RSkImageSwift/Pods-RSkImageSwift-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FB15502DE5932BFC92DF54D7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2B5B67B61EDE8C0200F70766 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B5B67C01EDE8C0200F70766 /* ViewController.swift in Sources */,
+				2B5B67BE1EDE8C0200F70766 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2B5B67C11EDE8C0200F70766 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5B67C21EDE8C0200F70766 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2B5B67C61EDE8C0200F70766 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2B5B67C71EDE8C0200F70766 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2B5B67CA1EDE8C0200F70766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2B5B67CB1EDE8C0200F70766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2B5B67CD1EDE8C0200F70766 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CA540E6072BFC679DED3517 /* Pods-RSkImageSwift.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GXTXWHR532;
+				INFOPLIST_FILE = RSkImageSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.builtbyblank.wt1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3542e193-0e48-4454-90e1-a19f6a313282";
+				PROVISIONING_PROFILE_SPECIFIER = WT1;
+				SWIFT_OBJC_BRIDGING_HEADER = "RSkImageSwift-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		2B5B67CE1EDE8C0200F70766 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D62EEE76868D3D53BDA68A17 /* Pods-RSkImageSwift.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = GXTXWHR532;
+				INFOPLIST_FILE = RSkImageSwift/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.builtbyblank.wt1;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "3542e193-0e48-4454-90e1-a19f6a313282";
+				PROVISIONING_PROFILE_SPECIFIER = WT1;
+				SWIFT_OBJC_BRIDGING_HEADER = "RSkImageSwift-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2B5B67B51EDE8C0200F70766 /* Build configuration list for PBXProject "RSkImageSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B67CA1EDE8C0200F70766 /* Debug */,
+				2B5B67CB1EDE8C0200F70766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2B5B67CC1EDE8C0200F70766 /* Build configuration list for PBXNativeTarget "RSkImageSwift" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2B5B67CD1EDE8C0200F70766 /* Debug */,
+				2B5B67CE1EDE8C0200F70766 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2B5B67B21EDE8C0200F70766 /* Project object */;
+}
